@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!--BOOTSTRAP: -->
+  <link rel="stylesheet" href="bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css">
+  <script src="bootstrap-5.3.0-alpha3-dist/js/bootstrap.bundle.min.js"></script>
+
+  <!--CSS-->
+  <link rel="stylesheet" href="CSS/style.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="CSS/IMG/OlhoGenerico.jpg">
+  <title>HorusReviews</title>
+</head>
+
+<body class="Degrad">
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid" align="center">
+        <a class="navbar-brand" href="index.html">
+          <img src="CSS/img/OlhoGenerico.jpg" alt="Logo Horus Reviews" width="50">
+          HorusReviews
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Filmes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Séries</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Perfil
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="login.html">Login</a></li>
+                <li><a class="dropdown-item" href="cadastro.html">Cadastro</a></li>
+            </li>
+
+          </ul>
+          </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <br />
+
+  <div class="container-fluid">
+
+    <div class="campoCad">
+      <h2>Cadastro</h2>
+      <h6 class="subtit">Faça seu cadastro em nosso sistema para participar de nossa comunidade: </h6>
+      <br />
+
+      <div class="row">
+
+        <div class="col">
+          <span>Seu nome: </span>
+          <br />
+          <input type="text" placeholder="Geraldo da Silva Sauro" size="30">
+        </div>
+
+        <div class="col">
+          <span>E-mail: </span>
+          <br />
+          <input type="text" placeholder="emaildeexemplo@gmail.com" size="30">
+        </div>
+
+      </div>
+      <br />
+      <div class="row">
+
+        <div class="col">
+          <span>Telefone: </span>
+          <br />
+          <input type="number" placeholder="SenhaDeExemplo#@0511" size="15" maxlength="11">
+        </div>
+
+        <div class="col">
+          <span>Senha: </span>
+          <br />
+          <input type="number" placeholder="SenhaDeExemplo#@0511" size="15" maxlength="15">
+        </div>
+
+      </div>
+      <br />
+      <div class="btnCad">
+        <button type="button" class="btn btn-secondary">Entrar</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
